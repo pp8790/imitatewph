@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MallLogic", "MallLogic\MallLogic.csproj", "{1A5F8231-8911-42C6-9645-83C49F9BBD2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MallDataBase", "MallDataBase\MallDataBase.csproj", "{1A15A5A9-EF75-4C85-A41A-5FF9EAAC494C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MallWebSize", "MallWebSize\MallWebSize.csproj", "{A4AC5E33-7E8B-4891-9D1F-7F9D47EEAE33}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+		Test|Any CPU = Test|Any CPU
+		Test|x86 = Test|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A5F8231-8911-42C6-9645-83C49F9BBD2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A5F8231-8911-42C6-9645-83C49F9BBD2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A5F8231-8911-42C6-9645-83C49F9BBD2E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{1A5F8231-8911-42C6-9645-83C49F9BBD2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A5F8231-8911-42C6-9645-83C49F9BBD2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A5F8231-8911-42C6-9645-83C49F9BBD2E}.Release|x86.ActiveCfg = Release|Any CPU
+		{1A5F8231-8911-42C6-9645-83C49F9BBD2E}.Test|Any CPU.ActiveCfg = Release|Any CPU
+		{1A5F8231-8911-42C6-9645-83C49F9BBD2E}.Test|Any CPU.Build.0 = Release|Any CPU
+		{1A5F8231-8911-42C6-9645-83C49F9BBD2E}.Test|x86.ActiveCfg = Release|Any CPU
+		{1A15A5A9-EF75-4C85-A41A-5FF9EAAC494C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A15A5A9-EF75-4C85-A41A-5FF9EAAC494C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A15A5A9-EF75-4C85-A41A-5FF9EAAC494C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{1A15A5A9-EF75-4C85-A41A-5FF9EAAC494C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A15A5A9-EF75-4C85-A41A-5FF9EAAC494C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A15A5A9-EF75-4C85-A41A-5FF9EAAC494C}.Release|x86.ActiveCfg = Release|Any CPU
+		{1A15A5A9-EF75-4C85-A41A-5FF9EAAC494C}.Test|Any CPU.ActiveCfg = Release|Any CPU
+		{1A15A5A9-EF75-4C85-A41A-5FF9EAAC494C}.Test|Any CPU.Build.0 = Release|Any CPU
+		{1A15A5A9-EF75-4C85-A41A-5FF9EAAC494C}.Test|x86.ActiveCfg = Release|Any CPU
+		{A4AC5E33-7E8B-4891-9D1F-7F9D47EEAE33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4AC5E33-7E8B-4891-9D1F-7F9D47EEAE33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4AC5E33-7E8B-4891-9D1F-7F9D47EEAE33}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A4AC5E33-7E8B-4891-9D1F-7F9D47EEAE33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4AC5E33-7E8B-4891-9D1F-7F9D47EEAE33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4AC5E33-7E8B-4891-9D1F-7F9D47EEAE33}.Release|x86.ActiveCfg = Release|Any CPU
+		{A4AC5E33-7E8B-4891-9D1F-7F9D47EEAE33}.Test|Any CPU.ActiveCfg = Release|Any CPU
+		{A4AC5E33-7E8B-4891-9D1F-7F9D47EEAE33}.Test|Any CPU.Build.0 = Release|Any CPU
+		{A4AC5E33-7E8B-4891-9D1F-7F9D47EEAE33}.Test|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
