@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="MallModelStoreContainer" CdmEntityContainer="MallEntities">
+    <EntitySetMapping Name="Directory">
+      <EntityTypeMapping TypeName="MallModel.Directory">
+        <MappingFragment StoreEntitySet="Directory">
+          <ScalarProperty Name="RelativeUrl" ColumnName="RelativeUrl" />
+          <ScalarProperty Name="SortNumber" ColumnName="SortNumber" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="DirectoryName" ColumnName="DirectoryName" />
+          <ScalarProperty Name="Rank" ColumnName="Rank" />
+          <ScalarProperty Name="ParentDirectoryGuid" ColumnName="ParentDirectoryGuid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Goods">
+      <EntityTypeMapping TypeName="MallModel.Goods">
+        <MappingFragment StoreEntitySet="Goods">
+          <ScalarProperty Name="UpdateTime" ColumnName="UpdateTime" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="GoodsName" ColumnName="GoodsName" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="Count" ColumnName="Count" />
+          <ScalarProperty Name="ImagePath" ColumnName="ImagePath" />
+          <ScalarProperty Name="DirectoryGuid" ColumnName="DirectoryGuid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

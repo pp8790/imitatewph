@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MallModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="MallModelStoreContainer">
+    <EntitySet Name="Directory" EntityType="MallModel.Store.Directory" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Goods" EntityType="MallModel.Store.Goods" store:Type="Tables" Schema="dbo" />
+  </EntityContainer>
+  <EntityType Name="Directory">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="DirectoryName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Rank" Type="int" Nullable="false" />
+    <Property Name="ParentDirectoryGuid" Type="uniqueidentifier" />
+  </EntityType>
+  <EntityType Name="Goods">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="GoodsName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Price" Type="money" Nullable="false" />
+    <Property Name="Count" Type="int" Nullable="false" />
+    <Property Name="ImagePath" Type="nvarchar" MaxLength="50" />
+    <Property Name="DirectoryGuid" Type="uniqueidentifier" Nullable="false" />
+  </EntityType>
+</Schema>

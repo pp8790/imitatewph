@@ -7,6 +7,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MallDataBase", "MallDataBas
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MallWebSize", "MallWebSize\MallWebSize.csproj", "{A4AC5E33-7E8B-4891-9D1F-7F9D47EEAE33}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dll", "Dll", "{306723B5-8392-4F06-BB92-B5580D5C3387}"
+	ProjectSection(SolutionItems) = preProject
+		..\Gci.Design.BitBee.WebApp\bin\EntityFramework.dll = ..\Gci.Design.BitBee.WebApp\bin\EntityFramework.dll
+		..\Gci.Design.BitBee.WebApp\bin\EntityFramework.Extended.dll = ..\Gci.Design.BitBee.WebApp\bin\EntityFramework.Extended.dll
+		..\Gci.Design.BitBee.WebApp\bin\EntityFramework.SqlServer.dll = ..\Gci.Design.BitBee.WebApp\bin\EntityFramework.SqlServer.dll
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

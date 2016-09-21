@@ -3,7 +3,8 @@ D:\work\MallMobileApp\MallDataBase\bin\Debug\MallDataBase.pdb
 D:\work\MallMobileApp\MallDataBase\obj\Debug\MallDataBase.csprojResolveAssemblyReference.cache
 D:\work\MallMobileApp\MallDataBase\obj\Debug\MallDataBase.dll
 D:\work\MallMobileApp\MallDataBase\obj\Debug\MallDataBase.pdb
-G:\TotalWorkSpace\VSworkspace\MallMobileApp\MallDataBase\bin\Debug\MallDataBase.dll
-G:\TotalWorkSpace\VSworkspace\MallMobileApp\MallDataBase\bin\Debug\MallDataBase.pdb
-G:\TotalWorkSpace\VSworkspace\MallMobileApp\MallDataBase\obj\Debug\MallDataBase.dll
-G:\TotalWorkSpace\VSworkspace\MallMobileApp\MallDataBase\obj\Debug\MallDataBase.pdb
+D:\work\MallMobileApp\MallDataBase\bin\Debug\MallDataBase.dll.config
+D:\work\MallMobileApp\MallDataBase\bin\Debug\EntityFramework.dll
+D:\work\MallMobileApp\MallDataBase\bin\Debug\EntityFramework.Extended.dll
+D:\work\MallMobileApp\MallDataBase\bin\Debug\EntityFramework.SqlServer.dll
+D:\work\MallMobileApp\MallDataBase\bin\Debug\EntityFramework.xml

@@ -1,0 +1,25 @@
+﻿@using MallDataBase.Entity;
+@using System.Linq;
+@model Goods
+@{
+    ViewBag.Title = ViewBag.Title;
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div>
+    <div>
+        <div>商品名称</div>
+        <div>@Model.GoodsName</div>
+    </div>
+     <div>
+        <div>商品图片</div>
+        <img src="@Model.ImagePath"/>
+    </div>
+     <div>
+        <div>商品价格</div>
+        <div>@Model.Price</div>
+    </div>
+     <div>
+        <div>商品库存</div>
+        <div>@Model.Count</div>
+    </div>
+</div>

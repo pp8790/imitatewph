@@ -1,0 +1,25 @@
+﻿.main-nav {
+    clear: both;
+    position: relative;
+    height: 40px;
+    line-height: 40px;
+    background-color: #f10180;
+    font-size: 14px;
+    color: #fff;
+}
+
+.head-inner {
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.main-nav-link {
+    padding-right: 124px;
+}
+
+.J_main_nav_link {
+}
+
+.clearfix {
+}

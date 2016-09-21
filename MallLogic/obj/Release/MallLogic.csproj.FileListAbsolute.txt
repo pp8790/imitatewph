@@ -1,0 +1,11 @@
+D:\work\MallMobileApp\MallLogic\bin\Release\MallLogic.dll
+D:\work\MallMobileApp\MallLogic\bin\Release\MallLogic.pdb
+D:\work\MallMobileApp\MallLogic\bin\Release\EntityFramework.dll
+D:\work\MallMobileApp\MallLogic\bin\Release\EntityFramework.Extended.dll
+D:\work\MallMobileApp\MallLogic\bin\Release\EntityFramework.SqlServer.dll
+D:\work\MallMobileApp\MallLogic\bin\Release\MallDataBase.dll
+D:\work\MallMobileApp\MallLogic\bin\Release\MallDataBase.pdb
+D:\work\MallMobileApp\MallLogic\bin\Release\EntityFramework.xml
+D:\work\MallMobileApp\MallLogic\obj\Release\MallLogic.csprojResolveAssemblyReference.cache
+D:\work\MallMobileApp\MallLogic\obj\Release\MallLogic.dll
+D:\work\MallMobileApp\MallLogic\obj\Release\MallLogic.pdb

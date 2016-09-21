@@ -31,6 +31,15 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\Dll\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.Extended">
+      <HintPath>..\Dll\EntityFramework.Extended.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\Dll\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -40,29 +49,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Business\BusinessLogic.cs" />
     <Compile Include="Class1.cs" />
+    <Compile Include="Common\CommonLogic.cs" />
+    <Compile Include="Goods\GoodsLogic.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Business\" />
     <Folder Include="Model\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\MallDataBase\MallDataBase.csproj">
       <Project>{1a15a5a9-ef75-4c85-a41a-5ff9eaac494c}</Project>
       <Name>MallDataBase</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\ThirdPart\Senparc.Weixin.MP\Senparc.Weixin.MP.csproj">
-      <Project>{96f51e10-e00f-47cf-b23b-b0bf96d414b2}</Project>
-      <Name>Senparc.Weixin.MP</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\ThirdPart\Senparc.Weixin.Open\Senparc.Weixin.Open.csproj">
-      <Project>{77bd4683-ae7e-4683-8dc3-d2c0042ab74f}</Project>
-      <Name>Senparc.Weixin.Open</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\ThirdPart\Senparc.Weixin\Senparc.Weixin.csproj">
-      <Project>{24cb609d-4503-43db-9c24-e46ce32ee8e7}</Project>
-      <Name>Senparc.Weixin</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

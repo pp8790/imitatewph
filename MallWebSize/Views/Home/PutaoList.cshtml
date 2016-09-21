@@ -1,0 +1,21 @@
+﻿@using MallDataBase.Entity;
+@using System.Linq;
+@model List<Goods>
+@{
+    ViewBag.Title = ViewBag.Title;
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div>
+    @foreach(var item in Model)
+    {
+        <div style="margin-top: 10px; border: 1px solid">
+            <div>
+                商品名称:@item.GoodsName
+            </div>
+            <a title="@item.GoodsName" target="_blank" href="/Home/GoodDetail?goodGuid=@item.ID">
+                <img alt="@item.GoodsName" style="width: 130px; height: 200px" src="@item.ImagePath" />
+            </a>
+        </div>
+    }
+</div>

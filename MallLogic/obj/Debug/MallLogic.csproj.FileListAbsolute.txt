@@ -5,10 +5,7 @@ D:\work\MallMobileApp\MallLogic\obj\Debug\MallLogic.dll
 D:\work\MallMobileApp\MallLogic\obj\Debug\MallLogic.pdb
 D:\work\MallMobileApp\MallLogic\bin\Debug\MallDataBase.dll
 D:\work\MallMobileApp\MallLogic\bin\Debug\MallDataBase.pdb
-G:\TotalWorkSpace\VSworkspace\MallMobileApp\MallLogic\bin\Debug\MallLogic.dll
-G:\TotalWorkSpace\VSworkspace\MallMobileApp\MallLogic\bin\Debug\MallLogic.pdb
-G:\TotalWorkSpace\VSworkspace\MallMobileApp\MallLogic\bin\Debug\MallDataBase.dll
-G:\TotalWorkSpace\VSworkspace\MallMobileApp\MallLogic\bin\Debug\MallDataBase.pdb
-G:\TotalWorkSpace\VSworkspace\MallMobileApp\MallLogic\obj\Debug\MallLogic.csprojResolveAssemblyReference.cache
-G:\TotalWorkSpace\VSworkspace\MallMobileApp\MallLogic\obj\Debug\MallLogic.dll
-G:\TotalWorkSpace\VSworkspace\MallMobileApp\MallLogic\obj\Debug\MallLogic.pdb
+D:\work\MallMobileApp\MallLogic\bin\Debug\EntityFramework.dll
+D:\work\MallMobileApp\MallLogic\bin\Debug\EntityFramework.Extended.dll
+D:\work\MallMobileApp\MallLogic\bin\Debug\EntityFramework.SqlServer.dll
+D:\work\MallMobileApp\MallLogic\bin\Debug\EntityFramework.xml

@@ -1,0 +1,43 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+<p>Ajax:以上传图片为例</p>
+<input type="file" id="picAjax"/>
+<input type="button" id="submitPic" value="提交" />
+<script src="~/Scripts/jquery-1.7.1.min.js"></script>
+<script type="text/javascript">
+    var picString = "";
+    $(function () {
+        $("#picAjax").change(function (e) {
+            var file = e.delegateTarget.files[0];
+            //在此可以对选择的文件进行判断:文件类型 文件大小等
+            //.....
+         
+            var reader = new FileReader();
+            reader.readAsDataURL(file);
+            reader.onload = function (ret) {
+                picString = reader.result
+                //预览图片
+                $("#selImg").attr({ "src": picString });
+            }
+        });
+ 
+        $("#submitPic").click(function () {
+            var data = {
+                picString: picString
+            }
+            $.ajax("/Business/UploadFile", {
+                type: "post",
+                datatype: "json",
+                data: data,
+                error: function () { },
+                success: function (result) {
+                    if (result) {
+                        alert(result.msg);
+                    }
+                }
+            });
+        });
+    })
+</script>
